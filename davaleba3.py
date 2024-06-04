@@ -5,11 +5,11 @@
 
 a = input("Enter a word: ")
 
-def return_tripled():
+def return_tripled(a):
     print(f"Input: '{a}'")
     print(f"Output: 'Tripled: {3*a}'")
 
-return_tripled()
+return_tripled(3)
 
 # 2. შექმენი ფუნქცია, რომელიც მიიღებს მომხმარებლის წონას და დააბრუნებს მის წონას
 # მთვარეზე. (მთვარის გრავიტაცია 6_ჯერ ნაკლებია დედამიწისაზე)
