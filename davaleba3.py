@@ -16,7 +16,7 @@ return_tripled(3)
 
 mase = float(input("please enter your mase: "))
 
-def mase_on_moon():
+def mase_on_moon(mase):
     return mase / 6
 
 # 3. შექმენი კალკულატორის ფუნქცია, რომელიც მიიღებს გამოსახულებას
